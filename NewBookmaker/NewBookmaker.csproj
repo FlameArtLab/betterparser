@@ -79,5 +79,11 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BetterTypes\BetterTypes.csproj">
+      <Project>{9379A69C-EDD8-4F1E-BE69-3C566693AD46}</Project>
+      <Name>BetterTypes</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
